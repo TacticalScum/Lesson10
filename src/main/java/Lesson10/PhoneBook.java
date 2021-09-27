@@ -6,12 +6,14 @@ import java.util.List;
 import java.util.Map;
 
 public class PhoneBook {
+
     String name;
     int phoneNumber;
     Map<String, List<Integer>> map = new HashMap<>();
     List<Integer> phoneNumberList;
 
     public void add(String name, int phoneNumber) {
+
         this.name = name;
         this.phoneNumber = phoneNumber;
         if (map.containsKey(this.name)) {
@@ -30,4 +32,3 @@ public class PhoneBook {
         System.out.println(this.name + " : " + map.get(this.name));
     }
 }
-
