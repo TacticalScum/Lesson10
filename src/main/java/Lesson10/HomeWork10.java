@@ -14,6 +14,7 @@ public class HomeWork10 {
         };
 
         Set<String> set = new HashSet<>();
+
         for (int i = 0; i < wordsArray.length; i++) {
             set.add(wordsArray[i]);
         }
@@ -28,10 +29,10 @@ public class HomeWork10 {
 
         PhoneBook phoneBook = new PhoneBook();
 
-        phoneBook.add("Волков", 44699);
-        phoneBook.add("Волков", 41065);
-        phoneBook.add("Иванов", 42102);
-        phoneBook.add("Казаков", 45633);
-        phoneBook.get("Волков");
+        phoneBook.add("Шмидт", 44699);
+        phoneBook.add("Шмидт", 41065);
+        phoneBook.add("Комлева", 42569);
+        phoneBook.add("Потапов", 44481);
+        phoneBook.get("Шмидт");
     }
 }
